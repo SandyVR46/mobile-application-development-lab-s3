@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         } else if (!num.matches("^[+][0-9]{10,13}$")) {
             pnum.requestFocus();
-            pnum.setError("Enter phone number in format +91********** "); //correct format ( +91********** )
+            pnum.setError("Enter phone number in format +91********** "); 
             return false;
         } else if (p.length() <= 5) {
             pass.requestFocus();
